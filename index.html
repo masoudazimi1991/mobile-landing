@@ -1,604 +1,110 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دوره آموزشی عکاسی با موبایل | عکاسی با موبایل</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <style>
-        * {
-            font-family: 'Vazirmatn', sans-serif;
-        }
-        
-        body {
-            background-color: #f9f9f9;
-        }
-        
-        .canva-purple {
-            background-color: #8B3DFF;
-        }
-        
-        .canva-purple-text {
-            color: #8B3DFF;
-        }
-        
-        .canva-gradient {
-            background: linear-gradient(135deg, #8B3DFF 0%, #00C4CC 100%);
-        }
-        
-        .hero-pattern {
-            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%238b3dff' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px -5px rgba(139, 61, 255, 0.1), 0 10px 10px -5px rgba(139, 61, 255, 0.04);
-        }
-        
-        .testimonial-card {
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        }
-        
-        .price-card {
-            border: 2px solid transparent;
-        }
-        
-        .price-card:hover {
-            border-color: #8B3DFF;
-        }
-        
-        .btn-primary {
-            background-color: #8B3DFF;
-            color: white;
-            transition: all 0.3s ease;
-        }
-        
-        .btn-primary:hover {
-            background-color: #7B2FEF;
-            transform: translateY(-2px);
-        }
-        
-        .btn-secondary {
-            background-color: white;
-            color: #8B3DFF;
-            border: 2px solid #8B3DFF;
-            transition: all 0.3s ease;
-        }
-        
-        .btn-secondary:hover {
-            background-color: #f9f5ff;
-            transform: translateY(-2px);
-        }
-        
-        .camera-icon {
-            fill: #8B3DFF;
-        }
-        
-        .countdown-item {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>دوره عکاسی با موبایل</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Vazirmatn', sans-serif;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
-<body class="hero-pattern">
-    <!-- نوار ناوبری -->
-    <nav class="bg-white shadow-md sticky top-0 z-50">
-        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-            <div class="flex items-center">
-                <svg class="w-10 h-10" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M25 50C38.8071 50 50 38.8071 50 25C50 11.1929 38.8071 0 25 0C11.1929 0 0 11.1929 0 25C0 38.8071 11.1929 50 25 50Z" fill="#8B3DFF"/>
-                    <path d="M32.5 17.5C34.8472 17.5 36.75 15.5972 36.75 13.25C36.75 10.9028 34.8472 9 32.5 9C30.1528 9 28.25 10.9028 28.25 13.25C28.25 15.5972 30.1528 17.5 32.5 17.5Z" fill="white"/>
-                    <path d="M17.5 25C19.8472 25 21.75 23.0972 21.75 20.75C21.75 18.4028 19.8472 16.5 17.5 16.5C15.1528 16.5 13.25 18.4028 13.25 20.75C13.25 23.0972 15.1528 25 17.5 25Z" fill="white"/>
-                    <path d="M32.5 32.5C34.8472 32.5 36.75 30.5972 36.75 28.25C36.75 25.9028 34.8472 24 32.5 24C30.1528 24 28.25 25.9028 28.25 28.25C28.25 30.5972 30.1528 32.5 32.5 32.5Z" fill="white"/>
-                    <path d="M17.5 40C19.8472 40 21.75 38.0972 21.75 35.75C21.75 33.4028 19.8472 31.5 17.5 31.5C15.1528 31.5 13.25 33.4028 13.25 35.75C13.25 38.0972 15.1528 40 17.5 40Z" fill="white"/>
-                </svg>
-                <span class="text-xl font-bold mr-2 canva-purple-text">عکاسی با موبایل</span>
-            </div>
-            <div class="hidden md:flex space-x-6 space-x-reverse">
-                <a href="#features" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md">ویژگی‌ها</a>
-                <a href="#syllabus" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md">سرفصل‌ها</a>
-                <a href="#testimonials" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md">نظرات</a>
-                <a href="#pricing" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md">قیمت</a>
-                <a href="#faq" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md">سوالات متداول</a>
-            </div>
-            <div>
-                <button class="btn-primary px-6 py-2 rounded-full font-medium">ثبت نام</button>
-            </div>
-        </div>
-    </nav>
+<body class="bg-gray-50">
 
-    <!-- بخش هیرو -->
-    <section class="py-16 md:py-24">
-        <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/2 mb-10 md:mb-0 text-center md:text-right">
-                    <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">هنر عکاسی حرفه‌ای با <span class="canva-purple-text">موبایل</span> را بیاموزید</h1>
-                    <p class="text-lg text-gray-700 mb-8">با دوره جامع عکاسی موبایل، تکنیک‌های حرفه‌ای را یاد بگیرید و تصاویری خیره‌کننده با همان گوشی همراه خود ثبت کنید.</p>
-                    
-                    <div class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4 sm:space-x-reverse">
-                        <button class="btn-primary px-8 py-3 rounded-full font-medium text-lg">همین حالا شروع کنید</button>
-                        <button class="btn-secondary px-8 py-3 rounded-full font-medium text-lg">دریافت دمو رایگان</button>
-                    </div>
-                    
-                    <!-- شمارنده معکوس -->
-                    <div class="mt-10 bg-white bg-opacity-80 p-4 rounded-lg inline-block">
-                        <p class="text-gray-700 mb-3">پایان تخفیف ویژه:</p>
-                        <div class="flex justify-center space-x-4 space-x-reverse">
-                            <div class="countdown-item p-3 w-16 text-center">
-                                <div class="text-2xl font-bold canva-purple-text">۲۳</div>
-                                <div class="text-xs text-gray-500">روز</div>
-                            </div>
-                            <div class="countdown-item p-3 w-16 text-center">
-                                <div class="text-2xl font-bold canva-purple-text">۱۲</div>
-                                <div class="text-xs text-gray-500">ساعت</div>
-                            </div>
-                            <div class="countdown-item p-3 w-16 text-center">
-                                <div class="text-2xl font-bold canva-purple-text">۴۵</div>
-                                <div class="text-xs text-gray-500">دقیقه</div>
-                            </div>
-                            <div class="countdown-item p-3 w-16 text-center">
-                                <div class="text-2xl font-bold canva-purple-text">۳۰</div>
-                                <div class="text-xs text-gray-500">ثانیه</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="md:w-1/2">
-                    <div class="relative">
-                        <div class="absolute inset-0 canva-gradient rounded-3xl transform rotate-3 scale-105 opacity-20"></div>
-                        <div class="relative bg-white p-4 rounded-3xl shadow-xl overflow-hidden">
-                            <svg class="w-full h-auto" viewBox="0 0 500 350" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect width="500" height="350" rx="10" fill="#f0f0f0"/>
-                                <circle cx="250" cy="150" r="100" fill="#8B3DFF" fill-opacity="0.1"/>
-                                <path d="M320 120C320 157.555 289.555 188 252 188C214.445 188 184 157.555 184 120C184 82.445 214.445 52 252 52C289.555 52 320 82.445 320 120Z" fill="#8B3DFF" fill-opacity="0.2"/>
-                                <path d="M300 120C300 146.51 278.51 168 252 168C225.49 168 204 146.51 204 120C204 93.49 225.49 72 252 72C278.51 72 300 93.49 300 120Z" fill="#8B3DFF" fill-opacity="0.3"/>
-                                <circle cx="252" cy="120" r="35" fill="#8B3DFF"/>
-                                <circle cx="270" cy="100" r="8" fill="white"/>
-                                <rect x="150" y="230" width="200" height="20" rx="5" fill="#8B3DFF" fill-opacity="0.7"/>
-                                <rect x="180" y="260" width="140" height="15" rx="5" fill="#8B3DFF" fill-opacity="0.5"/>
-                                <rect x="200" y="285" width="100" height="15" rx="5" fill="#8B3DFF" fill-opacity="0.3"/>
-                            </svg>
-                            <div class="absolute top-4 left-4 bg-white p-2 rounded-full shadow-md">
-                                <svg class="w-8 h-8 camera-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 17C14.2091 17 16 15.2091 16 13C16 10.7909 14.2091 9 12 9C9.79086 9 8 10.7909 8 13C8 15.2091 9.79086 17 12 17Z" fill="currentColor"/>
-                                    <path d="M20 7H16.83L15.59 5.65C15.22 5.24 14.68 5 14.12 5H9.88C9.32 5 8.78 5.24 8.4 5.65L7.17 7H4C2.9 7 2 7.9 2 9V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V9C22 7.9 21.1 7 20 7ZM12 19C8.69 19 6 16.31 6 13C6 9.69 8.69 7 12 7C15.31 7 18 9.69 18 13C18 16.31 15.31 19 12 19Z" fill="currentColor"/>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- نوار ناوبری -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <div class="text-xl font-bold text-purple-600">دوره عکاسی</div>
+      <div class="hidden md:flex space-x-4 space-x-reverse">
+        <a href="#features" class="text-gray-700 hover:text-purple-600">ویژگی‌ها</a>
+        <a href="#syllabus" class="text-gray-700 hover:text-purple-600">سرفصل‌ها</a>
+        <a href="#testimonials" class="text-gray-700 hover:text-purple-600">نظرات</a>
+        <a href="#pricing" class="text-gray-700 hover:text-purple-600">قیمت</a>
+        <a href="#about" class="text-gray-700 hover:text-purple-600">درباره ما</a>
+        <a href="#contact" class="text-gray-700 hover:text-purple-600">تماس با ما</a>
+      </div>
+      <button onclick="document.getElementById('signup').scrollIntoView()" class="btn-primary px-6 py-2 rounded-full bg-purple-600 text-white font-medium">ثبت‌نام</button>
+    </div>
+  </nav>
 
-    <!-- بخش ویژگی‌ها -->
-    <section id="features" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">چرا دوره عکاسی موبایل ما را انتخاب کنید؟</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">با استفاده از تکنیک‌های حرفه‌ای و ابزارهای کاربردی، عکاسی با موبایل را به سطح بالاتری ببرید.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- ویژگی ۱ -->
-                <div class="feature-card bg-white p-6 rounded-xl shadow-md transition-all duration-300">
-                    <div class="w-14 h-14 canva-gradient rounded-full flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M5 4a2 2 0 012-2h6a2 2 0 012 2v14l-5-2.5L5 18V4z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">آموزش گام به گام</h3>
-                    <p class="text-gray-600">از مبتدی تا پیشرفته، تمام مراحل عکاسی با موبایل را با جزئیات کامل یاد می‌گیرید.</p>
-                </div>
-                
-                <!-- ویژگی ۲ -->
-                <div class="feature-card bg-white p-6 rounded-xl shadow-md transition-all duration-300">
-                    <div class="w-14 h-14 canva-gradient rounded-full flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">مدرسین مجرب</h3>
-                    <p class="text-gray-600">از تجربیات عکاسان حرفه‌ای با سال‌ها تجربه در زمینه عکاسی موبایل بهره‌مند شوید.</p>
-                </div>
-                
-                <!-- ویژگی ۳ -->
-                <div class="feature-card bg-white p-6 rounded-xl shadow-md transition-all duration-300">
-                    <div class="w-14 h-14 canva-gradient rounded-full flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">پشتیبانی دائمی</h3>
-                    <p class="text-gray-600">در تمام مراحل یادگیری، پشتیبانی آنلاین و پاسخگویی به سوالات شما را تضمین می‌کنیم.</p>
-                </div>
-                
-                <!-- ویژگی ۴ -->
-                <div class="feature-card bg-white p-6 rounded-xl shadow-md transition-all duration-300">
-                    <div class="w-14 h-14 canva-gradient rounded-full flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm12 12H4l4-8 3 6 2-4 3 6z" clip-rule="evenodd"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">پروژه‌های عملی</h3>
-                    <p class="text-gray-600">با انجام پروژه‌های کاربردی، آموخته‌های خود را در عمل تجربه کنید و پورتفولیو قوی بسازید.</p>
-                </div>
-                
-                <!-- ویژگی ۵ -->
-                <div class="feature-card bg-white p-6 rounded-xl shadow-md transition-all duration-300">
-                    <div class="w-14 h-14 canva-gradient rounded-full flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">آموزش ویرایش حرفه‌ای</h3>
-                    <p class="text-gray-600">نرم‌افزارهای ویرایش عکس موبایل را به صورت کامل یاد بگیرید و تصاویر خود را حرفه‌ای ویرایش کنید.</p>
-                </div>
-                
-                <!-- ویژگی ۶ -->
-                <div class="feature-card bg-white p-6 rounded-xl shadow-md transition-all duration-300">
-                    <div class="w-14 h-14 canva-gradient rounded-full flex items-center justify-center mb-4">
-                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3">دسترسی مادام‌العمر</h3>
-                    <p class="text-gray-600">پس از خرید دوره، به تمام محتوا و به‌روزرسانی‌های آینده برای همیشه دسترسی خواهید داشت.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+  <!-- بخش درباره ما -->
+  <section id="about" class="py-16 bg-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-4">درباره مدرس دوره</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        من مسعود عزیمی هستم، عکاس حرفه‌ای و مدرس دوره‌های عکاسی موبایل. در این دوره تلاش کردم تمام تجربیاتم رو به ساده‌ترین و کاربردی‌ترین شکل در اختیار شما قرار بدم.
+      </p>
+    </div>
+  </section>
 
-    <!-- بخش سرفصل‌ها -->
-    <section id="syllabus" class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">آنچه در این دوره خواهید آموخت</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">سرفصل‌های جامع دوره عکاسی با موبایل که شما را از سطح مبتدی به حرفه‌ای تبدیل می‌کند.</p>
-            </div>
-            
-            <div class="bg-white rounded-xl shadow-md overflow-hidden">
-                <!-- سرفصل ۱ -->
-                <div class="border-b border-gray-200">
-                    <button class="w-full px-6 py-4 text-right focus:outline-none" onclick="toggleSyllabus(1)">
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-medium">فصل ۱: مبانی عکاسی با موبایل</span>
-                            <svg id="arrow-1" class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                    </button>
-                    <div id="content-1" class="px-6 py-4 hidden">
-                        <ul class="list-disc list-inside text-gray-600 space-y-2">
-                            <li>آشنایی با دوربین موبایل و قابلیت‌های آن</li>
-                            <li>اصول کادربندی و ترکیب‌بندی در عکاسی</li>
-                            <li>نورپردازی پایه و اهمیت آن در عکاسی</li>
-                            <li>تنظیمات دوربین موبایل (ISO، شاتر، فوکوس)</li>
-                            <li>آشنایی با حالت‌های مختلف عکاسی در موبایل</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- سرفصل ۲ -->
-                <div class="border-b border-gray-200">
-                    <button class="w-full px-6 py-4 text-right focus:outline-none" onclick="toggleSyllabus(2)">
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-medium">فصل ۲: تکنیک‌های پیشرفته عکاسی</span>
-                            <svg id="arrow-2" class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                    </button>
-                    <div id="content-2" class="px-6 py-4 hidden">
-                        <ul class="list-disc list-inside text-gray-600 space-y-2">
-                            <li>عکاسی پرتره با موبایل</li>
-                            <li>عکاسی منظره و طبیعت</li>
-                            <li>عکاسی در شب و شرایط کم‌نور</li>
-                            <li>عکاسی ماکرو با موبایل</li>
-                            <li>تکنیک‌های خلاقانه (پانوراما، HDR، تایم‌لپس)</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- سرفصل ۳ -->
-                <div class="border-b border-gray-200">
-                    <button class="w-full px-6 py-4 text-right focus:outline-none" onclick="toggleSyllabus(3)">
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-medium">فصل ۳: ویرایش حرفه‌ای عکس در موبایل</span>
-                            <svg id="arrow-3" class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                    </button>
-                    <div id="content-3" class="px-6 py-4 hidden">
-                        <ul class="list-disc list-inside text-gray-600 space-y-2">
-                            <li>معرفی اپلیکیشن‌های برتر ویرایش عکس</li>
-                            <li>اصلاح رنگ و نور در عکس‌ها</li>
-                            <li>کار با فیلترها و پریست‌ها</li>
-                            <li>روتوش پرتره و حذف عناصر ناخواسته</li>
-                            <li>ساخت کلاژ و ترکیب تصاویر</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- سرفصل ۴ -->
-                <div class="border-b border-gray-200">
-                    <button class="w-full px-6 py-4 text-right focus:outline-none" onclick="toggleSyllabus(4)">
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-medium">فصل ۴: لوازم جانبی و تجهیزات کمکی</span>
-                            <svg id="arrow-4" class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                    </button>
-                    <div id="content-4" class="px-6 py-4 hidden">
-                        <ul class="list-disc list-inside text-gray-600 space-y-2">
-                            <li>معرفی لنزهای اضافی برای موبایل</li>
-                            <li>سه‌پایه‌ها و گیمبال‌های مناسب</li>
-                            <li>تجهیزات نورپردازی قابل حمل</li>
-                            <li>میکروفون‌ها برای ضبط صدا</li>
-                            <li>لوازم جانبی ضروری و کاربردی</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- سرفصل ۵ -->
-                <div>
-                    <button class="w-full px-6 py-4 text-right focus:outline-none" onclick="toggleSyllabus(5)">
-                        <div class="flex justify-between items-center">
-                            <span class="text-lg font-medium">فصل ۵: کسب درآمد از عکاسی موبایل</span>
-                            <svg id="arrow-5" class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </div>
-                    </button>
-                    <div id="content-5" class="px-6 py-4 hidden">
-                        <ul class="list-disc list-inside text-gray-600 space-y-2">
-                            <li>فروش عکس در سایت‌های استوک</li>
-                            <li>بازاریابی در اینستاگرام و شبکه‌های اجتماعی</li>
-                            <li>عکاسی محصول برای کسب‌وکارها</li>
-                            <li>برگزاری ورکشاپ و آموزش عکاسی</li>
-                            <li>ساخت پورتفولیو حرفه‌ای</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+  <!-- فرم ثبت‌نام -->
+  <section id="signup" class="py-16 bg-purple-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold text-purple-700">فرم ثبت‌نام در دوره</h2>
+        <p class="text-gray-600 mt-2">اطلاعات خود را وارد کنید تا با شما تماس بگیریم.</p>
+      </div>
+      <form action="https://formsubmit.co/masoudazimi1991@yahoo.com" method="POST" class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-md">
+        <input type="hidden" name="_subject" value="ثبت‌نام جدید در دوره عکاسی با موبایل!">
+        <input type="hidden" name="_captcha" value="false">
+        <div class="mb-4">
+          <label class="block mb-2 text-right font-medium">نام و نام خانوادگی</label>
+          <input type="text" name="name" class="w-full p-3 border rounded-lg text-right" placeholder="مثلاً مسعود عزیمی" required>
         </div>
-    </section>
-
-    <!-- بخش نظرات -->
-    <section id="testimonials" class="py-16 canva-gradient text-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">نظرات دانشجویان ما</h2>
-                <p class="max-w-2xl mx-auto opacity-90">ببینید دیگران درباره دوره عکاسی با موبایل ما چه می‌گویند.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- نظر ۱ -->
-                <div class="testimonial-card p-6 text-gray-800">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center mr-4">
-                            <span class="text-purple-700 font-bold">س</span>
-                        </div>
-                        <div>
-                            <h4 class="font-bold">سارا محمدی</h4>
-                            <p class="text-gray-500 text-sm">عکاس آماتور</p>
-                        </div>
-                    </div>
-                    <p class="mb-4">قبل از این دوره، عکس‌های من معمولی بودند. الان با همان گوشی موبایل، عکس‌هایی می‌گیرم که دوستانم باور نمی‌کنند با موبایل گرفته شده باشند!</p>
-                    <div class="flex">
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                    </div>
-                </div>
-                
-                <!-- نظر ۲ -->
-                <div class="testimonial-card p-6 text-gray-800">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center mr-4">
-                            <span class="text-purple-700 font-bold">م</span>
-                        </div>
-                        <div>
-                            <h4 class="font-bold">محمد رضایی</h4>
-                            <p class="text-gray-500 text-sm">بلاگر سفر</p>
-                        </div>
-                    </div>
-                    <p class="mb-4">این دوره به من کمک کرد تا عکس‌های سفرم را به سطح دیگری ببرم. الان از عکس‌هایم در اینستاگرام درآمد دارم و همه اینها با یک گوشی ساده شروع شد.</p>
-                    <div class="flex">
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                    </div>
-                </div>
-                
-                <!-- نظر ۳ -->
-                <div class="testimonial-card p-6 text-gray-800">
-                    <div class="flex items-center mb-4">
-                        <div class="w-12 h-12 bg-purple-200 rounded-full flex items-center justify-center mr-4">
-                            <span class="text-purple-700 font-bold">ن</span>
-                        </div>
-                        <div>
-                            <h4 class="font-bold">نیلوفر کریمی</h4>
-                            <p class="text-gray-500 text-sm">صاحب فروشگاه آنلاین</p>
-                        </div>
-                    </div>
-                    <p class="mb-4">با آموزش‌های این دوره، الان خودم عکس‌های محصولات فروشگاهم را می‌گیرم و دیگر نیازی به عکاس ندارم. این دوره هزینه خودش را چندین برابر برگردانده است.</p>
-                    <div class="flex">
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                        </svg>
-                    </div>
-                </div>
-            </div>
+        <div class="mb-4">
+          <label class="block mb-2 text-right font-medium">شماره تماس</label>
+          <input type="tel" name="phone" class="w-full p-3 border rounded-lg text-right" placeholder="09123456789" required>
         </div>
-    </section>
+        <div class="mb-6">
+          <label class="block mb-2 text-right font-medium">ایمیل</label>
+          <input type="email" name="email" class="w-full p-3 border rounded-lg text-right" placeholder="example@email.com">
+        </div>
+        <button type="submit" class="bg-purple-600 text-white w-full py-3 rounded-full font-medium">ثبت‌نام</button>
+      </form>
+    </div>
+  </section>
 
-    <!-- بخش قیمت‌گذاری -->
-    <section id="pricing" class="py-16 bg-white">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">پلن‌های قیمت‌گذاری</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">پلن مناسب خود را انتخاب کنید و همین امروز یادگیری عکاسی حرفه‌ای با موبایل را شروع کنید.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- پلن پایه -->
-                <div class="price-card bg-white rounded-xl shadow-md p-8 transition-all duration-300">
-                    <h3 class="text-xl font-bold mb-2">پلن پایه</h3>
-                    <p class="text-gray-600 mb-6">مناسب برای افراد مبتدی</p>
-                    <div class="mb-6">
-                        <span class="text-4xl font-bold">۴۹۹,۰۰۰</span>
-                        <span class="text-gray-600"> تومان</span>
-                    </div>
-                    <ul class="mb-8 space-y-3">
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>دسترسی به ۳ فصل اول دوره</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>۱۰ تمرین عملی</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>دسترسی به گروه پشتیبانی</span>
-                        </li>
-                        <li class="flex items-center text-gray-400">
-                            <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>بررسی و نقد عکس‌های شما</span>
-                        </li>
-                        <li class="flex items-center text-gray-400">
-                            <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>گواهی پایان دوره</span>
-                        </li>
-                    </ul>
-                    <button class="btn-secondary w-full py-3 rounded-full font-medium">ثبت نام</button>
-                </div>
-                
-                <!-- پلن حرفه‌ای -->
-                <div class="price-card bg-white rounded-xl shadow-lg p-8 transition-all duration-300 transform scale-105 border-2 border-purple-500">
-                    <div class="absolute top-0 right-0 bg-purple-500 text-white px-4 py-1 rounded-bl-lg rounded-tr-lg text-sm font-medium">پیشنهاد ویژه</div>
-                    <h3 class="text-xl font-bold mb-2">پلن حرفه‌ای</h3>
-                    <p class="text-gray-600 mb-6">مناسب برای علاقه‌مندان جدی</p>
-                    <div class="mb-6">
-                        <span class="text-4xl font-bold">۸۹۹,۰۰۰</span>
-                        <span class="text-gray-600"> تومان</span>
-                        <span class="text-sm line-through text-gray-400 mr-2">۱,۲۹۹,۰۰۰</span>
-                    </div>
-                    <ul class="mb-8 space-y-3">
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>دسترسی به تمام فصل‌های دوره</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>۲۵ تمرین عملی</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>دسترسی به گروه پشتیبانی</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>بررسی و نقد عکس‌های شما</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>گواهی پایان دوره</span>
-                        </li>
-                    </ul>
-                    <button class="btn-primary w-full py-3 rounded-full font-medium">ثبت نام</button>
-                </div>
-                
-                <!-- پلن VIP -->
-                <div class="price-card bg-white rounded-xl shadow-md p-8 transition-all duration-300">
-                    <h3 class="text-xl font-bold mb-2">پلن VIP</h3>
-                    <p class="text-gray-600 mb-6">مناسب برای حرفه‌ای‌ها</p>
-                    <div class="mb-6">
-                        <span class="text-4xl font-bold">۱,۴۹۹,۰۰۰</span>
-                        <span class="text-gray-600"> تومان</span>
-                    </div>
-                    <ul class="mb-8 space-y-3">
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>همه موارد پلن حرفه‌ای</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>۳ جلسه منتورینگ اختصاصی</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
-                            </svg>
-                            <span>دسترسی به محتوای اضافی</span>
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text```
+  <!-- بخش تماس با ما -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold">تماس با ما</h2>
+        <p class="text-gray-600">سؤالات خود را از طریق فرم زیر یا شبکه‌های اجتماعی برای ما ارسال کنید.</p>
+      </div>
+      <div class="max-w-xl mx-auto text-right">
+        <p class="mb-2"><strong>ایمیل:</strong> masoudazimi1991@yahoo.com</p>
+        <p class="mb-6"><strong>اینستاگرام:</strong> <a href="https://www.instagram.com/azimiphotography" class="text-purple-600" target="_blank">@azimiphotography</a></p>
+        <form action="https://formsubmit.co/masoudazimi1991@yahoo.com" method="POST" class="bg-white p-6 rounded-xl shadow">
+          <input type="hidden" name="_subject" value="پیام جدید از فرم تماس با ما">
+          <input type="hidden" name="_captcha" value="false">
+          <div class="mb-4">
+            <label class="block mb-1 font-medium">نام</label>
+            <input type="text" name="name" class="w-full p-3 border rounded-lg" required>
+          </div>
+          <div class="mb-4">
+            <label class="block mb-1 font-medium">ایمیل</label>
+            <input type="email" name="email" class="w-full p-3 border rounded-lg">
+          </div>
+          <div class="mb-4">
+            <label class="block mb-1 font-medium">پیام</label>
+            <textarea name="message" class="w-full p-3 border rounded-lg" rows="4" required></textarea>
+          </div>
+          <button class="bg-purple-600 text-white px-6 py-2 rounded-full">ارسال پیام</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- فوتر -->
+  <footer class="bg-white text-center text-gray-500 py-6 border-t mt-10">
+    <p>© 2025 مسعود عزیمی | دوره عکاسی با موبایل</p>
+    <p>اینستاگرام: <a href="https://instagram.com/azimiphotography" target="_blank" class="text-purple-600">@azimiphotography</a></p>
+  </footer>
+</body>
+</html>
